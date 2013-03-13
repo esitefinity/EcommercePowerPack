@@ -1,0 +1,42 @@
+﻿.starRatingInner {
+
+	height: 20px;
+	background-image: url("star.png");
+	overflow: hidden;
+	position:absolute;
+    top:0;
+    left:0;
+}
+
+.starRating
+{
+    position:relative;
+    width:115px;
+ 
+
+}
+
+.starRating a
+{
+    display:block;
+    margin-top:20px;
+    top:22px;
+    left:0;
+    position:absolute;
+}
+
+.starRatingOuter
+{
+    background: url("star.png") no-repeat 0 -20px;
+    position:absolute;
+    	height: 20px;
+    	width: 100px;
+    top:0;
+    left:0;
+}
+
+.sfTitleCol, .sfTitleCol
+{
+    width: 50px !important;
+}
+
